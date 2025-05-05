@@ -43,8 +43,8 @@ This PySpark application performs **real-time streaming from Apache Kafka to Cli
   "timestamp": "2024-01-01T12:00:00Z"
 }
 
-**## ClickHouse Table Schema Example**
-```
+## ClickHouse Table Schema Example
+```sql
 CREATE TABLE example_table (
   id Int,
   name String,
