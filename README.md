@@ -34,7 +34,7 @@ This PySpark application performs **real-time streaming from Apache Kafka to Cli
 
 ---
 
-## 🧪 Sample Kafka Message Format
+## 🧪 Sample Kafka Message Format 
 
 ```json
 {
@@ -42,11 +42,13 @@ This PySpark application performs **real-time streaming from Apache Kafka to Cli
   "trx_code": "XYZ",
   "timestamp": "2024-01-01T12:00:00Z"
 }
+```
 
 ---
 
-## ClickHouse Table Schema Example
-```json
+## Clickhouse create table query
+
+```sql
 CREATE TABLE example_table (
   id Int,
   name String,
