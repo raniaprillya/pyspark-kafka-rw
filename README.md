@@ -37,11 +37,7 @@ This PySpark application performs **real-time streaming from Apache Kafka to Cli
 ## 🧪 Sample Kafka Message Format 
 
 ```json
-{
-  "acctno": 123,
-  "trx_code": "XYZ",
-  "timestamp": "2024-01-01T12:00:00Z"
-}
+{"id": "10", "name": "Alice", "value": "10.9", "date":"2023-10-28"}
 ```
 
 ---
